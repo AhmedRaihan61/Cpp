@@ -1,0 +1,55 @@
+// ===========================Example - 02: ===========================
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int hostUserNumber, guestUserNumber;
+    cout << "Host: ";
+    cin >> hostUserNumber;
+
+    cout << "Guest: ";
+    cin >> guestUserNumber;
+
+    /*if(hostUserNumber == guestUserNumber){
+        cout << "Correct";
+    }
+    else{
+        cout << "Wrong";
+    }
+
+    */
+    
+    /*
+    
+    (condition) ? (if true it will execute) : (if flase it will execute)
+    */
+    
+    (hostUserNumber == guestUserNumber) ? cout << "Correct": cout << "Failed";
+
+    system("pause>0");
+}
+
+
+
+
+// =========================== Example - 02 ===========================
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num;
+    cout << "Enter a Number ";
+    cin >> num;
+    string result;
+
+    result = (num >= 0)? "Positive Number": "Negative Number";
+    cout << result;
+
+    system("pause>0");
+}
+
+
