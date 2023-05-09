@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+//void -> not return anything
+
+void function()
+{
+    //fun body. expression here
+    cout << "I am from void function";
+
+}
+
+int main() {
+    cout << "I am from Main function\n";
+    function();
+
+    system("pause>0");
+}
