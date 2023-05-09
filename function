@@ -5,7 +5,7 @@ using namespace std;
 
 void function()
 {
-    //fun body. expression here
+    //fun body. expression will here
     cout << "I am from void function";
 
 }
